@@ -1,0 +1,2136 @@
+{
+    "types": [
+        {
+            "id": "1",
+            "type": "Information gathering",
+            "description": "Bacon ipsum dolor amet pig ham swine corned beef ham hock chislic, venison spare ribs rump ground round pork buffalo."
+        },
+        {
+            "id": "2",
+            "type": "Guard duty",
+            "description": "Tri-tip biltong shankle jerky venison hamburger ground round. Beef ribs ground round porchetta filet mignon."
+        },
+        {
+            "id": "3",
+            "type": "Set up a supply cache",
+            "description": "Kevin filet mignon meatball, burgdoggen cow pancetta frankfurter boudin capicola buffalo drumstick."
+        },
+        {
+            "id": "4",
+            "type": "Humanitarian relief",
+            "description": "Travel to a well-populated area and iteract with the locals. Loiter for a reasonable amount of time, offer assistance, and report any interesting encounters. Be on your best behavior and represent!"
+        },
+        {
+            "id": "5",
+            "type": "Scavenging run",
+            "description": "Short loin strip steak leberkas pork chop porchetta cupim kielbasa buffalo drumstick brisket beef ribs sirloin t-bone ham hock ham."
+        },
+        {
+            "id": "6",
+            "type": "Sweep and clear",
+            "description": "Picanha ribeye flank cupim turkey chislic pastrami prosciutto short loin corned beef filet mignon capicola swine venison."
+        },
+        {
+            "id": "7",
+            "type": "Recon scope resupply",
+            "description": "Burgdoggen pork flank landjaeger corned beef tail, fatback sausage boudin beef ribs. Turkey capicola ham hock shank spare ribs pork."
+        },
+        {
+            "id": "8",
+            "type": "Fort Defiance munitions resupply",
+            "description": "Brisket ground round porchetta pork chop capicola tri-tip strip steak bacon corned beef short ribs shank. Rump fatback frankfurter meatloaf, jerky sirloin prosciutto capicola."
+        },
+        {
+            "id": "9",
+            "type": "ATLAS observation",
+            "description": "Frankfurter strip steak prosciutto swine ham hock kielbasa. Flank shoulder sirloin, buffalo beef pork andouille."
+        },
+        {
+            "id": "10",
+            "type": "Feed the people",
+            "description": "Short loin fatback leberkas chicken. Boudin rump bacon capicola, hamburger doner chislic tenderloin short ribs ground round t-bone buffalo spare ribs prosciutto."
+        },
+        {
+            "id": "11",
+            "type": "Search and rescue",
+            "description": "Pork chop buffalo chuck andouille ribeye. Turkey shank shoulder turducken strip steak shankle pork picanha tenderloin bresaola flank rump biltong t-bone short loin."
+        },
+        {
+            "id": "12",
+            "type": "patrol4FUTURE",
+            "description": "Salami meatloaf chicken brisket t-bone corned beef. Burgdoggen meatloaf capicola, prosciutto chicken pork chop ham hock jerky."
+        },
+        {
+            "id": "13",
+            "type": "Containment duty",
+            "description": "Swine chislic chicken brisket jowl, cupim pork belly doner shank. Doner turducken alcatra kielbasa burgdoggen. Tongue kielbasa hamburger jowl chislic."
+        },
+        {
+            "id": "14",
+            "type": "Hunting party",
+            "description": "Alcatra chicken sirloin, biltong pork belly picanha doner andouille ribeye tri-tip boudin. Pancetta sirloin drumstick shoulder salami, corned beef ham hock."
+        },
+        {
+            "id": "15",
+            "type": "Friendly RX",
+            "description": "Biltong tail meatloaf drumstick bacon. Tri-tip salami meatball pig tenderloin pastrami sausage burgdoggen chislic pancetta swine short ribs venison doner kielbasa."
+        },
+        {
+            "id": "16",
+            "type": "Defense training",
+            "description": "Meatloaf short loin pork chop leberkas pork loin. Shank prosciutto bacon jowl pork chop t-bone swine tail alcatra ball tip shankle salami frankfurter turducken capicola."
+        }
+    ],
+    "locations": [
+        {
+            "location": "98 NAR Regional",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Ammo Dump",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "ATLAS Observatory",
+            "zone": "Savage Divide",
+            "isSolo": true,
+            "isAtlasObservation": true
+        },
+        {
+            "location": "Autumn Acre Cabin",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Bailey Family Cabin",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Beckwith Farm",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Big Fred's BBQ Shack",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Blackwater Mine",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Central Mountain Lookout",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Cliffwatch",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Converted Munitions Factory (Workshop)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Dent and Sons Construction",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Devil's Backbone",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "East Mountain Lookout",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Emmett Mountain Disposal Site",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Federal Disposal Field HZ-21 (Workshop)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Fissure Site Aokigahara",
+            "zone": "Savage Divide",
+            "isContainment": true
+        },
+        {
+            "location": "Foundation",
+            "zone": "Savage Divide",
+            "isFeedPeople": true,
+            "isFriendlyRx": true
+        },
+        {
+            "location": "Hopewell Cave",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Huntersville",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Ingram Mansion",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Investigator's Cabin",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Johnson's Acre",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Lake Eloise",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Lucky Hole Mine",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Middle Mountains Cabins",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monongah",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monongah Mine",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monongah Overlook",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monongah Power Plant",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monongah Power Plant Yard (Workshop)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monongah Power Substation MZ-01",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monongah Power Substation MZ-02",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Monorail Elevator",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Mountainside Bed and Breakfast",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "National Isolated Radio Array",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "National Radio Astronomy Research Center",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "New Appalachian Central Trainyard",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "North Cutthroat Camp",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "North Mountain Lookout",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Palace of the Winding Path",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Pleasant Valley Cabins",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Pleasant Valley Ski Resort",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Pleasant Valley Station",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Pumpkin House",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "R and G Processing Services",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "R and G Station",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Red Rocket Mega Stop (Workshop)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Relay Tower EL-B1-02",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Relay Tower LW-B1-22",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Ripper Alley",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Safe 'n Clean Disposal",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Scenic Overlook",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Seneca Gang Camp",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Seneca Rocks",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Seneca Rocks Visitor Station",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Site Alpha (Do not enter Silo)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Site Bravo (Do not enter Silo)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Site Charlie (Do not enter Silo)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Skullbone Vantage",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Solomon's Pond",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Sons of Dane Compound",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "South Cutthroat Camp",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "South Mountain Lookout",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Spruce Knob (Workshop)",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Spruce Knob Campground",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Spruce Knob Channels",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Spruce Knob Lake",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Sugar Grove",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Sunnytop Ski Lanes",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Sunnytop Ski Lanes Base Lodge",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Sunnytop Station",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Sylvie and Sons Logging Camp",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "The Freak Show",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "The Sludge Hole",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "The Vantage",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Top of the World",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Toxic Larry's Meat 'n Go",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Twin Lakes",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "US-13C Bivouac",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Vault 94",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Vault 96",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Wendigo Cave",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "West Tek Research Center",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Whitespring Lookout",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Whitespring Station",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "The Bounty",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Sacrament",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Vault 79",
+            "zone": "Savage Divide",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned Bunker",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned Waste Dump",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Abbie's Bunker",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Berkeley Springs",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Berkeley Springs West (Workshop)",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Big B's Rest Stop",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Big Maw",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Braxon's Quality Medical Supplies",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Camp Venture",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Carson's Family Bunker",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Crashed Plane",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Crevasse Dam",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Dabney Homestead (Workshop)",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Dolly Sods Campground (Workshop)",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Dolly Sods Lookout",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Dolly Sods Wilderness",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Dyer Chemical",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Ella Ames' Bunker",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Excelsior Model Home",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Freddy Fear's House of Scares",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Gnarled Shallows",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Gulper Lagoon",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Harpers Ferry",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Haven Church",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Hawke's Refuge",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Highland Marsh",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Hunter's Shack",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "KMAX Transmission",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Mosstown",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Raleigh Clay's Bunker",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Ransacked Bunker",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Southern Belle Motel",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Southhampton Estate",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Sunday Brothers' Cabin",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Tangara Town",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Thunder Mountain Power Plant",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Thunder Mountain Power Plant Yard (Workshop)",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Thunder Mountain Substation TM-01",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Treehouse Village",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Treetops",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Valley Galleria",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Blake's Offering",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Bloody Frank's",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Moth-Home",
+            "zone": "the Mire",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned Bog Town (Workshop)",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "AMS Corporate Headquarters",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Appalachian Antiques",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Big Bend Tunnel East",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Bootlegger's Shack",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Cranberry Glade",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Creekside Sundew Grove",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Drop Site C2",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Drop Site G3",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Drop Site V9",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Firebase Hancock",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Firebase LT",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Firebase Major",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Fissure Site Prime",
+            "zone": "Cranberry Bog",
+            "isContainment": true
+        },
+        {
+            "location": "Flooded Trainyard",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Fort Defiance",
+            "zone": "Cranberry Bog",
+            "isSolo": true,
+            "isScope": true,
+            "isMunitions": true
+        },
+        {
+            "location": "Forward Station Alpha",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Forward Station Delta",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Glassed Cavern",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Kerwood Mine",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Lost Home",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Mac's Farm",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "NAR Repair Yard",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Old Mold Quarry",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Overgrown Sundew Grove",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Pylon V-13",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Quarry X3",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Ranger District Office",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Ranger Lookout",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "RobCo Research Center",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Sparse Sundew Grove",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Superior Sunset Farm",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Sunrise Field",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "The General's Steakhouse",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "The Thorn",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Thunder Mountain Substation TM-02",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Veiled Sundew Grove",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Civic Center",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Emergency Services",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Estates",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga High School",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Municipal Center",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Shopping Plaza",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Station",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Transit Hub",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Crimson Prospect",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+            "location": "Watoga Underground",
+            "zone": "Cranberry Bog",
+            "isSolo": true
+        },
+        {
+        "location": "Aaronholt homestead",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Alpine River Cabins",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Anchor farm",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Archery set",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Arktos Pharma",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Arktos Pharma biome lab",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Billboard junk camp",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Billings homestead",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Biplane crash",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Birdhouse ridge",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Black Mountain Ordnance Works",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Bleeding Kate's Grindhouse",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Blood Eagle camp",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Bolton Greens",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Burdette Manor",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Camp Adams",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Camp Adams lookout",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Camp McClintock",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Charleston",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "AVR Medical Center",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Charleston Capitol Building",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Charleston Fire Department",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Charleston Herald building",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright Industrial headquarters",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Charleston landfill",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Charleston station",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Charleston trainyard",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "First Friends Church",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Clancy Manor",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Cliffwatch",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Cow Spots Creamery",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Crosshair",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Cultist totem",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Darling sister's lab",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Deathclaw island",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Deep",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Duncan & Duncan Robotics",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "East Kanawha lookout",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Flatwoods",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Flatwoods lookout",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Green Country Lodge",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Friendly",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Gauley mine",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "RobCo auto-cache 001",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Gauley mine exit",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Gauley River",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Giant Teapot",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Gilman lumber mill",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Gorge junkyard",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Greg's Mine Supply",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Groves family cabin",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Helvetia",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Hillfolk Hotdogs",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Horizon's Rest",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright summer villa",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Hunter's Ridge",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "I-59",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Isolated cabin",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "J. Schram's house",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Kanawha County Cemetery",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Kanawha Nuka Cola Plant",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Kill Box",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Lady Janet's Soft Serve",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Lakeside Cabins",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Landview Lighthouse",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Lewis & Sons Farming Supply",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Limousine crash",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Marigold Pavilion",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Moonshiner's shack",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Morgantown",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Big Al's Tattoo Parlor",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Fraternity Row",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Eta Psi House",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Pi House",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Mama Dolce's Food Processing",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Fujiniya Intelligence Base",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Morgantown Airport",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Morgantown Airport terminal",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Morgantown High School",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Morgantown station",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Morgantown trainyard",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Red Rocket",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Shadowbreeze Apartments",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Vault-Tec University",
+            "zone": "the Forest",
+            "isSolo": true,
+            "isPatrolFuture": true
+        },
+        {
+            "location": "New Gad",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "New River Gorge Bridge - East",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "New River Gorge Bridge - West",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "New River Gorge Resort",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "New River Gorge ropes course",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "North Kanawha lookout",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Ohio River",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Ohio River Adventures",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Orwell Orchards",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Overlook cabin",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Overseer's camp",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Overseer's home",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Point Pleasant",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Mothman Museum",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Pigsty",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Portside Pub",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Poseidon Energy Plant WV-06",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Poseidon power substation PX-01",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Poseidon power substation PX-02",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Priblos' Curios",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Prehistoric bones camp",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Red Rocket (Flatwoods)",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Relay tower EM-B1-27",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Relay tower HN-B1-12",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Riverside Manor",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Safecracker's shack",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Silva homestead",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Silver Bridge",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Slocum's Joe",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Sugarmaple",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Summersville",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Summersville Lake",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Summersville Dam",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Summersville Docks",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Sunshine Meadows industrial farm",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Sutton",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Sutton station",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Torrance House",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Transmission station 1AT-U03",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Twin Pine Cabins",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Tygart water treatment",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Tyler County Dirt Track",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Tyler County fairgrounds",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Vault 51",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Vault 76",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Vault-Tec Agricultural Research Center",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Wade Airport",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Wayward",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "White Powder Winter Sports",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Whitespring Resort",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Whitespring bunker",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Whitespring golf club",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "The Whitespring service entrance",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Wilson Brother's Auto Repair",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Wixon homestead",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "WV Lumber Co.",
+            "zone": "the Forest",
+            "isSolo": true
+        },
+        {
+            "location": "Becker farm",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Black Bear Lodge",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Carleton Mine",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Clarksburg",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Clarksburg Shooting Club",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Toxic dried lakebed",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Cobbleton farm",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Colonel Kelly monument",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "The Crater",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Crater watchstation",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "The Core",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Eastern Regional Penitentiary",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton High School",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton Pawn Shop",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton station",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton Dam",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton Lake",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton Steel",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton Steel Underground",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Grafton Steel yard",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Graninger farm",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "emlock Holes",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Hemlock Holes maintenance",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Hilltop pylon camp",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Kiddie Corner cabins",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Knife Edge",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Philippi Battlefield Cemetery",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Pioneer Scout camp",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Pioneer Scout lookout",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Poseidon power substation PX-03",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Prickett's Fort",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Smith farm",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Toxic pond and wreckage",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Wavy Willard's Water Park",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Willard Corporate Housing",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Woods Estate",
+            "zone": "Toxic Valley",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine shaft 1",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine shaft 2",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine shaft 3",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine shaft 4",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine shaft 5",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine shaft 6",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine shaft Elaine",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Abandoned mine site Kittery",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "AMS testing site",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Beckley",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Beckley mine exhibit",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Big Papa Moe's Lip Smackin' Sandwich Shack",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Fissure Site Omega",
+            "zone": "Ash Heap",
+            "isContainment": true
+        },
+        {
+            "location": "Joe's Spuckies",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Sal's Grinders",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Belching Betty",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Big Bend Tunnel campsite",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Brim Quarry",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "The Burning Mine",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Camden Park",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Garrahan Estate",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Garrahan Mining Headquarters",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright air purifier site 01",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright air purifier site 02",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright air purifier site 03",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright air purifier site 04",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright testing site 2",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright testing site 3",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Hornwright testing site 4",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Janelle's camp",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Lake Reynolds",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Lewisburg",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Lewisburg station",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Pleasant Hills Cemetery",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Mount Blair",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Mount Blair trainyard",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Nicholson's End",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Pylon ambush site",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Relay tower HG-B7-09",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Red Rocket filling station",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Riverside cottage",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Rollins labor camp",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "The Rusty Pick",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "The Sludge Works",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Striker Row",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Unfinished mansion",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Van Lowe Taxidermy",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Vault 63",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Welch",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Welch station",
+            "zone": "Ash Heap",
+            "isSolo": true
+        },
+        {
+            "location": "Widow's Perch",
+            "zone": "Ash Heap",
+            "isSolo": true
+        }
+    ]
+}

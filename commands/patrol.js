@@ -9,8 +9,11 @@ module.exports = {
 
         const embed = new MessageEmbed()
             .setColor("#17a554")
-            .setTitle("Priority message from Paladin Rahmani");
- 
+            .setTitle("Priority message from Paladin Rahmani!")
+            .setURL("https://www.worldanvil.com/w/bos3A-operation-hope4future-head-librarian-carlson/a/patrol-system-article")
+            .setThumbnail("https://cdn.discordapp.com/attachments/651629761310883870/763630067405684756/paladin.png")
+            .setFooter ("© Brotherhood of Steel: Operation hope4FUTURE");
+
         const fs = require("fs");
         const patrolData = fs.readFileSync("./includes/patrol.json");
 
@@ -61,10 +64,9 @@ module.exports = {
 
         if (args[0] === "solo") {
             let index = randomize(soloLocations);
-            const stringLocation = index.location + " in " + index.zone;
 
-            embed.setDescription("Paladin Rahmani has tasked you with searching for usable supplies at a location.");
-            embed.addFields({name: "Location", value: stringLocation});
+            embed.setDescription("\u201cThe Brotherhood of Steel needs you to search for usable supplies at this location.\u201d");
+            embed.addFields({name: "Location", value: index.location + " in " + index.zone});
 
             return message.channel.send(embed);
         };
@@ -82,111 +84,112 @@ module.exports = {
                 typeIndex.id === "16") {
                 let locationIndex = randomize(soloLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
+                embed.addFields(
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
+                );
 
-                embed.setDescription(typeIndex.description);
+                return message.channel.send(embed);
+            };
+
+            if (typeIndex.id === "4") {
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
                     {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);
             };
-            if (typeIndex.id === "4") {
-                embed.setDescription(typeIndex.description);
-                embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type}
-                );
 
-                return message.channel.send(embed);
-            };
             if (typeIndex.id === "7") {
                 let locationIndex = randomize(scopeLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
-
-                embed.setDescription(typeIndex.description);
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);
             };
+
             if (typeIndex.id === "8") {
                 let locationIndex = randomize(munitionsLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
-
-                embed.setDescription(typeIndex.description);
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);
             };
+
             if (typeIndex.id === "9") {
                 let locationIndex = randomize(atlasObservationLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
-
-                embed.setDescription(typeIndex.description);
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);
             };
+
             if (typeIndex.id === "10") {
                 let locationIndex = randomize(feedPeopleLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
-
-                embed.setDescription(typeIndex.description);
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);
             };
+
             if (typeIndex.id === "12") {
                 let locationIndex = randomize(patrolFutureLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
-
-                embed.setDescription(typeIndex.description);
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);
             };
+
             if (typeIndex.id === "13") {
                 let locationIndex = randomize(containmentLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
-
-                embed.setDescription(typeIndex.description);
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);
             };
+
             if (typeIndex.id === "15") {
                 let locationIndex = randomize(friendlyRxLocations);
 
-                const stringLocation = locationIndex.location + " in " + locationIndex.zone;
-
-                embed.setDescription(typeIndex.description);
+                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type},
-                    {name: "Location", value: stringLocation}
+                    {name: "Patrol type", value: typeIndex.type, inline: true},
+                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
+                    {name: "Additional information", value: typeIndex.description}
                 );
 
                 return message.channel.send(embed);

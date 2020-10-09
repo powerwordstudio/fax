@@ -3,47 +3,52 @@
         {
             "id": "1",
             "type": "Information gathering",
-            "description": "Bacon ipsum dolor amet pig ham swine corned beef ham hock chislic, venison spare ribs rump ground round pork buffalo."
+            "description": "Search for relevant information (holotapes, notes, terminals, wildlife observations, etc.) and write a report for the *#report-room* if any of that information is not already in the scrolls.",
+            "icly": "You are ordered to proceed to the target location. File a report if you learn anything that is not already recorded in the scrolls."
         },
         {
             "id": "2",
             "type": "Guard duty",
-            "description": "Tri-tip biltong shankle jerky venison hamburger ground round. Beef ribs ground round porchetta filet mignon."
+            "description": "Proceed to area from starting area, clear of area in the direct vicinity to be guarded of hostiles, guard entrance of area for a reasonable amount of time (the intent is to provide you an opportunity to RP while on duty) in character, report any interesting encounters with locals in the **#report-room** on discord.",
+            "icly": "We need a team to clear the target location of hostiles. Proceed to stand watch."
         },
         {
             "id": "3",
             "type": "Set up a supply cache",
-            "description": "Kevin filet mignon meatball, burgdoggen cow pancetta frankfurter boudin capicola buffalo drumstick."
+            "description": "Assign a cargo carrier. Roll 1D6 every time the cargo carrier is attacked or hit by anything. The cargo is scattered over Appalachia and destroyed if the result is odd.\n\nCargo carrier cannot directly engage in combat with the enemy except to use melee weapons (or their rifle butt) to defend themselves while carrying cargo.",
+            "icly": "Command has ordered that a supply cache be set up at the target location. Deposit excess aid items and ammo in a container after the location is secured."
         },
         {
             "id": "4",
             "type": "Humanitarian relief",
-            "description": "Travel to a well-populated area and iteract with the locals. Loiter for a reasonable amount of time, offer assistance, and report any interesting encounters. Be on your best behavior and represent!"
+            "description": "Travel to a well-populated area and iteract with the locals. Loiter for a reasonable amount of time, offer assistance, and report any interesting encounters. Be on your best behavior and represent!",
+            "icly": "Bacon ipsum dolor amet pig ham swine corned beef ham hock chislic, venison spare ribs rump ground round pork buffalo."
         },
         {
             "id": "5",
             "type": "Scavenging run",
-            "description": "Short loin strip steak leberkas pork chop porchetta cupim kielbasa buffalo drumstick brisket beef ribs sirloin t-bone ham hock ham."
+            "description": "Proceed to target location from starting area and scavenge any Ammo, Food, or Medical supplies you can find alone the way. File a simplified report in the *#report-room* detailing the totals found."
         },
         {
             "id": "6",
             "type": "Sweep and clear",
-            "description": "Picanha ribeye flank cupim turkey chislic pastrami prosciutto short loin corned beef filet mignon capicola swine venison."
+            "description": "Proceed to target location and clear the vicinity of all hostiles.",
+            "icly": "We've identified a threat in Appalachia. Proceed to target location and eliminate all enemies of the Brotherhood. Ad Victoriam!"
         },
         {
             "id": "7",
             "type": "Recon scope resupply",
-            "description": "Burgdoggen pork flank landjaeger corned beef tail, fatback sausage boudin beef ribs. Turkey capicola ham hock shank spare ribs pork."
+            "description": "Assign a cargo carrier (see Cargo Carrier rules in Appendix G) and make your way to Fort Defiance with a bag full of newly scavenged recon scopes to sync at the Artillery Battery Terminal."
         },
         {
             "id": "8",
             "type": "Fort Defiance munitions resupply",
-            "description": "Brisket ground round porchetta pork chop capicola tri-tip strip steak bacon corned beef short ribs shank. Rump fatback frankfurter meatloaf, jerky sirloin prosciutto capicola."
+            "description": "Assign two cargo carriers (See cargo carrying rules in Appendix G). These people cannot attack during engagements while *carrying* the ordnance and must remain extremely close to each other to approximate carrying the ammunition. The ordnance crate may be *set* down by one of the carrying members making a declaration to that effect, but doing so risks damaging it's contents. When picking it back up roll 1d6, if a 5-6 is rolled the contents are destroyed and the patrol is a failure."
         },
         {
             "id": "9",
             "type": "ATLAS observation",
-            "description": "Frankfurter strip steak prosciutto swine ham hock kielbasa. Flank shoulder sirloin, buffalo beef pork andouille."
+            "description": "Proceed to the Helipad at Atlas Observatory, and go an on actual patrol, making a wide circle around Atlas, all the way down to the train tracks and all the way around. Clear out any hostiles you run into, interact with any players you run into, must fly the roleplay team flag during the patrol. Patrol ends back on the Helipad."
         },
         {
             "id": "10",
@@ -53,12 +58,14 @@
         {
             "id": "11",
             "type": "Search and rescue",
-            "description": "Pork chop buffalo chuck andouille ribeye. Turkey shank shoulder turducken strip steak shankle pork picanha tenderloin bresaola flank rump biltong t-bone short loin."
+            "description": "**This patrol requires at least four people!** A patrol team has gone missing, last radio contact was in the area of their patrol (the target location) before the radio went dead, Missing patrol team need be 2+ in numbers, as well Search team need be 2+. Each member of the missing team must roll on the //casualty system table// to determine the severity of their wounds. To make this more realistic the missing team can not use water/food/stimpax, only have one clip of ammo and must survive in or near the location for the duration of the patrol.\n\nThe search team objective is to reach the missing Patrol team. The leader of search team must pick safe location to take missing team to for Evac. Missing team can not enter combat on escort to safe zone. HUD must be switched off, both teams need be in separate parties. No members of missing team can be downed in order to succeed.",
+            "icly": "Pork chop buffalo chuck andouille ribeye. Turkey shank shoulder turducken strip steak shankle pork picanha tenderloin bresaola flank rump biltong t-bone short loin."
         },
         {
             "id": "12",
             "type": "patrol4FUTURE",
-            "description": "Salami meatloaf chicken brisket t-bone corned beef. Burgdoggen meatloaf capicola, prosciutto chicken pork chop ham hock jerky."
+            "description": "Assign a cargo carrier. Roll 1D6 every time the DNA carrier is attacked or hit by anything. A sample is destroyed if the result is odd. If two or more samples are broken while en-route, then the patrol has failed.",
+            "icly": "Another batch of Sierra Bravo DNA samples are ready to make their way to Vault-Tec University. We need those samples to figure out how to finally bring an end the scorched."
         },
         {
             "id": "13",
@@ -139,7 +146,7 @@
             "isSolo": true
         },
         {
-            "location": "Dent and Sons Construction",
+            "location": "Dent & Sons Construction",
             "zone": "Savage Divide",
             "isSolo": true
         },
@@ -255,7 +262,7 @@
             "isSolo": true
         },
         {
-            "location": "Mountainside Bed and Breakfast",
+            "location": "Mountainside Bed & Breakfast",
             "zone": "Savage Divide",
             "isSolo": true
         },
@@ -310,12 +317,12 @@
             "isSolo": true
         },
         {
-            "location": "R and G Processing Services",
+            "location": "R&G Processing Services",
             "zone": "Savage Divide",
             "isSolo": true
         },
         {
-            "location": "R and G Station",
+            "location": "R&G Station",
             "zone": "Savage Divide",
             "isSolo": true
         },
@@ -445,7 +452,7 @@
             "isSolo": true
         },
         {
-            "location": "Sylvie and Sons Logging Camp",
+            "location": "Sylvie & Sons logging camp",
             "zone": "Savage Divide",
             "isSolo": true
         },
@@ -1988,37 +1995,37 @@
             "isSolo": true
         },
         {
-            "location": "Hornwright air purifier site 01",
+            "location": "Hornwright air purifier site #01",
             "zone": "Ash Heap",
             "isSolo": true
         },
         {
-            "location": "Hornwright air purifier site 02",
+            "location": "Hornwright air purifier site #02",
             "zone": "Ash Heap",
             "isSolo": true
         },
         {
-            "location": "Hornwright air purifier site 03",
+            "location": "Hornwright air purifier site #03",
             "zone": "Ash Heap",
             "isSolo": true
         },
         {
-            "location": "Hornwright air purifier site 04",
+            "location": "Hornwright air purifier site #04",
             "zone": "Ash Heap",
             "isSolo": true
         },
         {
-            "location": "Hornwright testing site 2",
+            "location": "Hornwright testing site #02",
             "zone": "Ash Heap",
             "isSolo": true
         },
         {
-            "location": "Hornwright testing site 3",
+            "location": "Hornwright testing site #03",
             "zone": "Ash Heap",
             "isSolo": true
         },
         {
-            "location": "Hornwright testing site 4",
+            "location": "Hornwright testing site #04",
             "zone": "Ash Heap",
             "isSolo": true
         },

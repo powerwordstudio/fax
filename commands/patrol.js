@@ -12,7 +12,7 @@ module.exports = {
             .setTitle("Priority message from Paladin Rahmani!")
             .setURL("https://www.worldanvil.com/w/bos3A-operation-hope4future-head-librarian-carlson/a/patrol-system-article")
             .setThumbnail("https://cdn.discordapp.com/attachments/651629761310883870/763630067405684756/paladin.png")
-            .setFooter ("© Brotherhood of Steel: Operation hope4FUTURE");
+            .setFooter ("© Brotherhood of Steel: Operation hOpe4FUTURE");
 
         const fs = require("fs");
         const patrolData = fs.readFileSync("./includes/patrol.json");
@@ -39,10 +39,6 @@ module.exports = {
             return location.isFeedPeople;
         });
 
-        var patrolFutureLocations = patrolParsed.locations.filter(function (location) { //TODO - SAME
-            return location.isPatrolFuture;
-        });
-
         var containmentLocations = patrolParsed.locations.filter(function (location) { //TODO - SAME
             return location.isContainment;
         });
@@ -55,10 +51,14 @@ module.exports = {
             return type.type;
         });
 
+        // function locations(arr) {
+        //     var 
+        // }
+
         function randomize(arr) {
             var min = 0;
             var max = (arr.length - 1);
-            var randIndex = Math.floor(Math.random() * (max - min)) + min;
+            var randIndex = Math.floor(Math.random() * (max - min));
             return arr[randIndex];
         };
 
@@ -80,8 +80,11 @@ module.exports = {
                 typeIndex.id === "5" ||
                 typeIndex.id === "6" ||
                 typeIndex.id === "11" ||
+                typeIndex.id === "12" ||
                 typeIndex.id === "14" ||
-                typeIndex.id === "16") {
+                typeIndex.id === "16" ||
+                typeIndex.id === "17" ||
+                typeIndex.id === "18") {
                 let locationIndex = randomize(soloLocations);
 
                 embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
@@ -145,19 +148,6 @@ module.exports = {
 
             if (typeIndex.id === "10") {
                 let locationIndex = randomize(feedPeopleLocations);
-
-                embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
-                embed.addFields(
-                    {name: "Patrol type", value: typeIndex.type, inline: true},
-                    {name: "Location", value: locationIndex.location + " in " + locationIndex.zone, inline: true},
-                    {name: "Additional information", value: typeIndex.description}
-                );
-
-                return message.channel.send(embed);
-            };
-
-            if (typeIndex.id === "12") {
-                let locationIndex = randomize(patrolFutureLocations);
 
                 embed.setDescription("\u201c" + typeIndex.icly + "\u201c");
                 embed.addFields(

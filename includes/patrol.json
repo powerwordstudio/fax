@@ -45,7 +45,7 @@
         {
             "id": "8",
             "type": "Fort Defiance munitions resupply",
-            "description": "Assign two cargo carriers, who must remain close to each other to approximate carrying the ammunition. The ordanance crate may me *set* down by one of the carrying members but doing so risks damaging its contents. When picking it back up roll 1d6; if a 5 or 6 is rolled then its contents are destroyed and the patrol is a failure.",
+            "description": "Assign two cargo carriers, who must remain close to each other to approximate carrying the ammunition. The ordinance crate may me *set* down by one of the carrying members but doing so risks damaging its contents. When picking it back up roll 1d6; if a 5 or 6 is rolled then its contents are destroyed and the patrol is a failure.",
             "icly": "We have received reports that the ASAM turret and the artillery battery at Fort Defiance are in need of resupply to maintain operational readiness. Your team has been selected to resupply this vital ordnance."
         },
         {
@@ -63,7 +63,7 @@
         {
             "id": "11",
             "type": "Search and rescue",
-            "description": "**This patrol requires at least four people!** Both the missing patrol and search teams need to have at least two people, who are in separate teams. The HUD must be switched off.\n\nEach member of the missing team must roll on the **casualty system table** to determine the severity of their wounds. They cannot use water, food, or stimpacks, can only have a single clip of ammo, and must survive in or near the location for the patrol duration.\n\nThe search team's objective is to reach the missing patrol. The leader of the search team must pick a safe location to take the missing team for Evac. The missing team cannot enter combat during the escort. The patrol fails if even a single person of the missing team is downed.",
+            "description": "**This patrol requires at least four people!** Both the missing patrol and search teams need to have at least two people, who are in separate teams. The HUD must be switched off.\n\nEach member of the missing team must roll on the **casualty system table** to determine the severity of their wounds. They cannot use water, food, or stimpaks, can only have a single clip of ammo, and must survive in or near the location for the patrol duration.\n\nThe search team's objective is to reach the missing patrol. The leader of the search team must pick a safe location to take the missing team for Evac. The missing team cannot enter combat during the escort. The patrol fails if even a single person of the missing team is downed.",
             "icly": "A patrol team has gone missing. Your team has been ordered locate them and provide assistance. Your target is the last known radio contact location."
         },
         {
@@ -81,7 +81,7 @@
         {
             "id": "14",
             "type": "Hunting party",
-            "description": "Characters must be armed with either a hunting rifle or bow. Hunt for ediable meat and gather edible vegetation in the area until at least 10 food items have been found. Make a survival check on the first instance of each individual animal or plant harvested during the patrol.",
+            "description": "Characters must be armed with either a hunting rifle or bow. Hunt for edible meat and gather edible vegetation in the area until at least 10 food items have been found. Make a survival check on the first instance of each individual animal or plant harvested during the patrol.",
             "icly": "Food supplies are running low. Command has ordered your team to form a hunting party and proceed to the target location."
         },
         {
@@ -94,7 +94,7 @@
             "id": "16",
             "type": "Defense training",
             "description": "All involved members must have their HUD turned off!\n\nThe infiltration team is to proceed to the center of the target location and fire off a flare to announce they have secured the location. The team cannot use any weapons during their infiltration attempt. All infiltrators must have a flare gun in their possession.\n\nThe objective will be to stop the infiltrators by shooting them (with the modified AER-9) before they reach their goal.",
-            "icly": "Your team has been flagged in our database as overdue for objective defense training. Split into into two teams. One team will be designated as the defense team, who is tasked with defending the target location from the attackers. Defenders will be issued specially modified AER-9 rifles with Beta Wave tuners for this mission for target designation purposes. Clear out any hostiles at the training location prior to proceeding with the exercise."
+            "icly": "Your team has been flagged in our database as overdue for objective defense training. Split into two teams. One team will be designated as the defense team, who is tasked with defending the target location from the attackers. Defenders will be issued specially modified AER-9 rifles with Beta Wave tuners for this mission for target designation purposes. Clear out any hostiles at the training location prior to proceeding with the exercise."
         },
         {
             "id": "17",
@@ -1810,7 +1810,7 @@
             "isSolo": true
         },
         {
-            "location": "emlock Holes",
+            "location": "Hemlock Holes",
             "zone": "Toxic Valley",
             "isSolo": true
         },

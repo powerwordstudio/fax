@@ -51,14 +51,8 @@ module.exports = {
             return type.type;
         });
 
-        // function locations(arr) {
-        //     var 
-        // }
-
         function randomize(arr) {
-            var min = 0;
-            var max = (arr.length - 1);
-            var randIndex = Math.floor(Math.random() * (max - min));
+            var randIndex = Math.floor(Math.random() * arr.length);
             return arr[randIndex];
         };
 

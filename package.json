@@ -1,13 +1,29 @@
 {
   "name": "fax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powerwordstudio/fax"
+  },
+  "keywords": [
+    "discord",
+    "fallout-76",
+    "fallout76",
+    "brotherhood-of-steel",
+    "roleplay"
+  ],
+  "author": "Laura T Szivos (http://powerwordstudio.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powerwordstudio/fax/issues"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
 }

@@ -11,7 +11,8 @@ module.exports = {
             .setColor("#17a554")
             .setTitle("Priority message from Paladin Rahmani!")
             .setURL("https://www.worldanvil.com/w/bos3A-operation-hope4future-head-librarian-carlson/a/patrol-system-article")
-            .setThumbnail("https://cdn.discordapp.com/attachments/651629761310883870/763630067405684756/paladin.png")
+            .attachFiles(['./includes/patrol.png'])
+            .setThumbnail("attachment://patrol.png")
             .setFooter ("© Brotherhood of Steel: Operation hOpe4FUTURE");
 
         const fs = require("fs");

@@ -60,7 +60,7 @@ module.exports = {
         if (args[0] === "solo") {
             let index = randomize(soloLocations);
 
-            embed.setDescription("\u201cThe Brotherhood of Steel needs you to search for usable supplies at this location.\u201d");
+            embed.setDescription("\u201cThe Brotherhood of Steel needs you to reconnoiter this location. Go forth into the world and gather information!\u201d");
             embed.addFields({name: "Location", value: index.location + " in " + index.zone});
 
             return message.channel.send(embed);
